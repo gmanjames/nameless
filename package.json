@@ -1,0 +1,25 @@
+{
+  "name": "nameless",
+  "version": "1.0.0",
+  "description": "A 3D world in WebGL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buildJS": "./node_modules/.bin/esbuild src/js/main.js --bundle --outfile=./public/js/nameless.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmanjames/nameless.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gmanjames/nameless/issues"
+  },
+  "homepage": "https://github.com/gmanjames/nameless#readme",
+  "dependencies": {
+    "esbuild": "0.16.5",
+    "express": "^4.18.2"
+  }
+}
